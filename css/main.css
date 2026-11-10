@@ -61,3 +61,16 @@ table {
     margin: 0 auto;
     background-color: darkseagreen;
 }
+
+h1 {
+    font-size: 2.2em;
+    /* an em is always relative to the current font size,
+    which by defaultis set to 16px (2.2 x 16px = 35.2px) */
+
+    /* you can set padding and margin based on an element's font size with em...*/
+    padding: 0.5; /* 0.5 x 35.2 = 17.6px */
+
+    /* an rem is relative to the root font size (either the default of 16px, or whatever font size you set on the html tag */
+    margin-bottom: 1rem; /* 1rem x 16px = 16px */
+
+}
