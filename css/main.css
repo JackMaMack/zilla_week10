@@ -93,3 +93,12 @@ section:nth-of-type(1) article{
     /* display flex, by default, makes things sit next to each other... */
     display: flex;
 }
+
+section:nth-of-type(2) article{
+    display:flex;
+    /* the direction of the flex is relative to the language the site is written in */
+    flex-direction: row-reverse;
+
+    /*flex direction can also be done in columns, if you want things stacked vertically */
+}
+
