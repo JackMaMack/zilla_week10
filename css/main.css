@@ -74,3 +74,22 @@ h1 {
     margin-bottom: 1rem; /* 1rem x 16px = 16px */
 
 }
+
+h3 {
+    font-size: 1.6em;
+    padding: 0.5em;
+}
+
+article div {
+    font-size: 36px;
+    padding: 10px;
+    border: 2px solid darkgreen;
+    background-color: greenyellow;
+}
+
+section:nth-of-type(1) article{
+    /* nth-child selects an element based on its position in its parent, regardless of what type of elements are there nth-of type will only select the element at that position if it matches the element type */
+    
+    /* display flex, by default, makes things sit next to each other... */
+    display: flex;
+}
